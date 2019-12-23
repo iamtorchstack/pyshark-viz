@@ -13,7 +13,7 @@ for packet in cap:
 	pkt.sizes.append((float(packet.time),int(packet.length)))
 	
 #Creating an instance of pygal
-pkt_size_chart = XY(width=400, height=300,style=LIghtGreen Style, explicit_size = True)
+pkt_size_chart = XY(width=400, height=300,style=LightGreen Style, explicit_size = True)
 pkt_size_chart.title = 'Packet Sizes'
 
 #add points to chart and render html
